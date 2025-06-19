@@ -21,14 +21,22 @@ This repository includes:
 
 ```
 .
-├── env.py                     # Custom environment definition
-├── Agent.ipynb               # Main notebook: training, tuning, evaluation, visualizations
-├── trained_a2c.zip           # Saved best-performing agent
-├── simulation_agent.mp4      # Video: A2C agent simulation
-├── frames/                   # PNG frames used to generate the video
-├── results/                  # Reward logs and evaluation outputs
-├── requirements.txt          # Python dependencies
-└── README.md                 # This file
+├── Agent.ipynb                 # Main notebook: training, tuning, evaluation, visualizations
+├── env.py                      # Custom Gym environment for surgical scheduling
+├── simulation_agent.mp4        # Rendered video of the trained A2C agent in action
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation
+
+├── Rewards logger/             # Saved reward logs for each agent
+│   ├── rewards_logger_a2c.pkl
+│   ├── rewards_logger_dqn.pkl
+│   └── rewards_logger_ppo.pkl
+
+├── Trained Agents/             # Serialized RL agents
+│   ├── trained_a2c.zip
+│   ├── trained_dqn.zip
+│   └── trained_ppo.zip
+
 ```
 
 ---
@@ -38,8 +46,8 @@ This repository includes:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/surgical-scheduling-rl.git
-cd surgical-scheduling-rl
+git clone https://github.com/Razelbaz1/surgical-scheduler-rl.git
+cd surgical-scheduler-rl
 ```
 
 2. Create a virtual environment (recommended) and install dependencies:
@@ -81,22 +89,16 @@ You can also open the video file directly to see the trained A2C agent schedulin
 
 This project was inspired by:
 
-**Xu, H., Fang, Y., Chou, C.A., Fard, N., & Luo, L. (2023)**  
+**u, H., Fang, Y., Chou, C.-A., Fard, N., & Luo, L. (2023). A reinforcement learning-based optimal control approach for managing an elective surgery backlog after pandemic disruption. Health Care Management Science, 26, 430–446**  
 *A reinforcement learning‑based optimal control approach for managing an elective surgery backlog after pandemic disruption*  
-Springer Nature. DOI: [link to article if public]
 
 ---
 
 ## 🧑‍💻 Author
 
-Final project by **[Your Name]**  
-Introduction to Reinforcement Learning  
+Final project by **Noa Anaki, Raz Elbaz, Osher Digurker**  
+Course: Introduction to Reinforcement Learning  
 Department of Industrial Engineering & Management  
 Ariel University, 2025
 
 ---
-
-## 📨 Contact
-
-📧 your.email@example.com  
-📍 Feel free to open issues or suggestions!
