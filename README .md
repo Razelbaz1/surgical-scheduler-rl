@@ -24,7 +24,7 @@ This repository includes:
 ├── Agent.ipynb                 # Main notebook: training, tuning, evaluation, visualizations
 ├── env.py                      # Custom Gym environment for surgical scheduling
 ├── simulation_agent.mp4        # Rendered video of the trained A2C agent in action
-├── Final_Project_Report.pdf    # Full academic report documenting the entire project
+├── Final_RL_Project_Report.pdf    # Full academic report documenting the entire project
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
 
@@ -86,7 +86,7 @@ You can also open the video file directly to see the trained A2C agent schedulin
 
 ---
 ## 📄 Final Report
-The file `Final_Project_Report.pdf` provides a comprehensive summary of the project.
+The file `Final_RL_Project_Report.pdf` provides a comprehensive summary of the project.
 It includes background theory, environment and algorithm design, training methodology, comparative results, visualization outputs, and academic discussion.
 This document is especially useful for readers seeking a formal overview of the project's methodology and conclusions.
 
