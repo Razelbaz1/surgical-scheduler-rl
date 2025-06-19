@@ -1,0 +1,12 @@
+gymnasium
+numpy
+matplotlib
+shimmy
+pandas
+torch
+stable-baselines3
+seaborn
+tqdm
+optuna
+imageio
+IPython
